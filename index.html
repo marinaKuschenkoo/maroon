@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maroon</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body class="page">
+    <div class="container">
+        <header class="row mt-5 header">
+            <div class="col-7">
+                <img src="./images/logo.svg" alt="" class="header__logo">
+            </div>
+            <div class="col-3">
+                <menu class="header__menu row">
+                    <a class="header__catalog col">Каталог</a>
+                    <a class="header__about-us col">О нас</a>
+                    <a class="header__contacts col">Контакты</a>
+                </menu>
+            </div>
+            <div class="col ms-5 ">
+                <div class="header__account row">
+                    <button class="header__profile me-3 mini-svg"></button>
+                    <button class="header__shopping-box mini-svg"></button>
+                </div>
+            </div>
+        </header>
+        <section class="row  main justify-content-between">
+            <div class="col-4 flex-column d-flex align-items-center justify-content-center">
+                <div class="main__image-block">
+                    <img src="./images/main-first.png" alt="">
+                    <div class="mt-1">
+                        <span>Уход для лица</span>
+                        <span>→</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="main__centered d-flex flex-column align-items-center">
+                    <h1 class="main__logo mb-4">MAROON</h1>
+                    <p class="main__about text-center mb-5">Натуральная косметика
+                        для бережного ухода за кожей</p>
+                    <button class="main__button button rounded-2">Подробнее</button>
+                </div>
+            </div>
+            <div class="col-4 d-flex flex-column align-items-center justify-content-center">
+                <div class="main__image-block">
+                    <img src="./images/main-second.png" alt="">
+                    <div class="mt-1">
+                        <span>Уход для лица</span>
+                        <span>→</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="row bestsellers justify-content-between">
+            <div class="col-2 d-flex flex-column justify-content-center">
+                <h2 class="bestsellers__header">Бестселлеры</h2>
+                <p class="bestsellers__description mt-4 mb-5">Легендарные продукты,
+                    завоевавшие любовь
+                    наших клиентов</p>
+                <button class="bestsellers__button button rounded-2">Смотреть все</button>
+            </div>
+            <div class="col-8">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide high">
+                            <div>
+                                <h3 class="swiper-header">High</h3>
+                                <span class="swiper-description">крем для лица</span>
+                                <a href="" class="swiper-link">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide rest">
+                            <div>
+                                <h3 class="swiper-header">Rest</h3>
+                                <span class="swiper-description">минеральная пудра</span>
+                                <a href="" class="swiper-link">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide rose">
+                            <div>
+                                <h3 class="swiper-header">Rose</h3>
+                                <span class="swiper-description">крем для лица</span>
+                                <a href="" class="swiper-link">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide milk">
+                            <div>
+                                <h3 class="swiper-header">Milk</h3>
+                                <span class="swiper-description">масло для тела</span>
+                                <a href="" class="swiper-link">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide high">
+                            <div>
+                                <h3 class="swiper-header">High</h3>
+                                <span class="swiper-description">крем для лица</span>
+                                <a href="" class="swiper-link">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide rest">
+                            <div>
+                                <h3 class="swiper-header">Rest</h3>
+                                <span class="swiper-description">минеральная пудра</span>
+                                <a href="" class="swiper-link">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide rose">
+                            <div>
+                                <h3 class="swiper-header">Rose</h3>
+                                <span class="swiper-description">крем для лица</span>
+                                <a href="" class="swiper-link">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide milk">
+                            <div>
+                                <h3 class="swiper-header">Milk</h3>
+                                <span class="swiper-description">масло для тела</span>
+                                <a href="" class="swiper-link">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="col-1 swiper-nav">
+                        <div class="swiper-button-prev mt-4"></div>
+                        <div class="swiper-button-next mt-4"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="row spf">
+            <div class="col-3  offset-7 d-flex flex-column justify-content-center">
+                <h2 class="spf__header">Встречайте весну
+                    вместе с нами</h2>
+                <p class="spf__description mt-4 mb-5">Попробуйте новую коллекцию ухаживающих средств для лица с SPF
+                    защитой</p>
+                <button class="spf__button button">Подробнее</button>
+            </div>
+        </section>
+        <section class="individual position-relative">
+            <div class="row align-items-center">
+                <div class="col-5 offset-5 position-absolute">
+                    <div class="individual__img d-none d-xxl-block"></div>
+                </div>
+                <div class="individual__text-wrapper col-7 d-flex justify-content-center align-items-center">
+                    <div class="individual__text">
+                        <h3 class="individual__header">Индивидуальный уход</h3>
+                        <p class="individual__description mt-5 mb-5">Не всегда очевидно, какие элементы и минералы
+                            необходимы коже, а многочисленные эксперименты с разными средствами только ухудшают ее
+                            качество.
+                            Заполните анкету, и мы подберем уход, подходящий именно вам, учитывая ваш образ жизни, место
+                            жительства и другие факторы. </p>
+                        <button class="individual__button button">Заполнить анкету</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="row history">
+            <div class="history__wrapper col-8 d-flex flex-column align-items-center justify-content-center">
+                <p class="history__text text-center">“Мы стремимся сделать уход за кожей доступным
+                    и приятным ритуалом для всех, кто хочет
+                    заботиться о себе и своем теле” </p>
+                <button class="history__button button mt-5">Наша история</button>
+            </div>
+        </section>
+        <section class="row collage">
+            <div class="col-7">
+                <div class="row">
+                    <img src="./images/collage/банер_1.png" alt="" class="col p-0 collage__img">
+                    <img src="./images/collage/банер_2.png" alt="" class="col p-0 collage__img">
+                    <img src="./images/collage/банер_3.png" alt="" class="col p-0 collage__img">
+                </div>
+                <div class="row">
+                    <img src="./images/collage/банер_4.png" alt="" class="col p-0 collage__img">
+                    <img src="./images/collage/банер_5.png" alt="" class="col p-0 collage__img">
+                    <img src="./images/collage/банер_6.png" alt="" class="col p-0 collage__img">
+                </div>
+            </div>
+            <div class="col-4 d-flex align-items-center">
+                <div class="collage__text">
+                    <h3 class="collage__header mb-4">Присоединяйтесь к нам</h3>
+                    <p class="collage__description mb-5">Подпишитесь на наш аккаунт @marooncare
+                        и узнавайте о новиках и акциях первыми</p>
+                    <button class="collage__button button">Подписаться</button>
+                </div>
+            </div>
+        </section>
+        <section class="row contacts position-relative align-items-center">
+            <div class="col-7  offset-5 position-absolute">
+                <div class="contacts__map">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8a4004ffad733aafb558f15477a4768bdc01bba39bce3e5088429548a8fb68fe&amp;width=100%25&amp;height=422&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+            </div>
+            <div class="contacts__text-wrapper col-7 d-flex justify-content-center align-items-center">
+                <div class="contacts__text">
+                    <h3 class="contacts__header">Контакты</h3>
+                    <span class="contacts__address-header">Адрес</span>
+                    <p class="contacts__address">Санкт-Петербург,
+                        ул. Большая Конюшенная, 19</p>
+                    <span class="contacts__phone-header">Телефон</span>
+                    <p class="contacts__phone">+7 (923) 888-90-60</p>
+                    <span class="contacts__mail-header">E-mail</span>
+                    <p class="contacts__mail">info@maroon.ru</p>
+                    <div class="contacts__socials">
+                        <button class="contacts__fb"></button>
+                        <button class="contacts__ig"></button>
+                        <button class="contacts__tw"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer mb-5 row d-flex justify-content-between">
+            <div class="col">
+                <div class="row">
+            <img src="./images/logo.svg" alt="" class="footer__logo col-2">
+            <div class="footer__menu col-4 d-flex justify-content-between">
+                <div class="row">
+                    <a class="footer__menu-item col">Каталог</a>
+                    <a class="footer__menu-item col">О нас</a>
+                    <a class="footer__menu-item col">Магазины</a>
+                    <a class="footer__menu-item col">Контакты</a>
+                </div>
+            </div>
+        </div>
+        </div>
+            <div class="footer__socials col-2">
+                <button class="contacts__fb mini-svg"></button>
+                <button class="contacts__ig mini-svg"></button>
+                <button class="contacts__tw mini-svg"></button>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src='./swiper.js'></script>
+</body>
+
+</html>

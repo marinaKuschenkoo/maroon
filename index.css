@@ -1,0 +1,237 @@
+@charset "UTF-8";
+.page {
+  background-color: #F9F7F6;
+}
+
+.header__logo {
+  max-width: 131px !important;
+}
+
+.header__profile {
+  background-image: url(./images/mini-svg/profile.svg);
+}
+
+.header__shopping-box {
+  background-image: url(./images/mini-svg/shopping-cart.svg);
+}
+
+.header__menu a {
+  text-decoration: none;
+  color: #122947;
+}
+
+.header__account button {
+  width: 16px;
+  height: 21px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 0;
+}
+
+.main__image-block {
+  max-width: 330px;
+}
+.main__image-block div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  padding-top: 4.4rem;
+}
+
+a {
+  cursor: pointer;
+  background-image: linear-gradient(black, black);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+a:hover {
+  color: #122947 !important;
+  background-size: 90% 1px;
+}
+
+.button {
+  cursor: pointer;
+  width: 8.8rem;
+  height: 2.5rem;
+  border: 1px solid #B3BAC1;
+  transition: all 0.2s ease-in;
+}
+.button:hover {
+  box-shadow: 0 1px 2px 0 rgba(106, 222, 71, 0.45), 0 1px 3px 1px rgba(50, 119, 10, 0.3);
+}
+
+.bestsellers {
+  padding-top: 13.125rem;
+  position: relative;
+}
+
+.swiper {
+  height: 19.5rem;
+  position: static !important;
+}
+.swiper .swiper-nav {
+  position: absolute;
+  top: auto;
+  bottom: -1.56rem !important;
+  right: 0;
+}
+.swiper .swiper-nav .swiper-button-next::after, .swiper .swiper-nav .swiper-button-prev::after {
+  content: "";
+}
+.swiper .swiper-nav .swiper-button-prev {
+  background-image: url(./images/mini-svg/prev.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.swiper .swiper-nav .swiper-button-next {
+  background-image: url(./images/mini-svg/next.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.swiper-slide {
+  max-width: 14.3rem;
+}
+.swiper-slide div {
+  position: absolute;
+  bottom: 1.56rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.swiper-slide div .swiper-header {
+  margin-bottom: 0.6rem;
+  color: #122947;
+}
+.swiper-slide div .swiper-description {
+  margin-bottom: 1.25rem;
+  color: #9A9DA0;
+}
+.swiper-slide div .swiper-link {
+  color: #122947;
+  -webkit-text-decoration: 0;
+          text-decoration: 0;
+  display: flex;
+  flex-direction: column;
+}
+.swiper-slide div .swiper-link::after {
+  content: "";
+  background-color: black;
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  margin-top: 0.5rem;
+}
+
+.high {
+  background: url(./images/Bestsellers/крем_1.png), lightgray 50%/cover no-repeat;
+}
+
+.rest {
+  background: url(./images/Bestsellers/крем_2.png), lightgray 50%/cover no-repeat;
+}
+
+.rose {
+  background: url(./images/Bestsellers/крем_3.png), lightgray 50%/cover no-repeat;
+}
+
+.milk {
+  background: url(./images/Bestsellers/крем_4.png), lightgray 50%/cover no-repeat;
+}
+
+.spf {
+  background: center/cover url(./images/банер\ 1.png) no-repeat;
+  height: 25rem;
+  margin-top: 8.75rem !important;
+}
+
+.individual__text-wrapper,
+.contacts__text-wrapper {
+  background-color: #F4F1ED;
+  width: 41.8rem !important;
+  height: 36.4rem !important;
+}
+
+.individual__text,
+.contacts__text {
+  max-width: 20.5rem;
+}
+
+.individual__img {
+  height: 28.19rem;
+  z-index: 1;
+  background: center/cover url(./images/indiv.png) no-repeat;
+}
+
+.individual__button {
+  width: 12.5rem;
+}
+
+.history {
+  background: center/cover url(./images/банер_2.png) no-repeat;
+  height: 25rem;
+  margin-top: 8.75rem !important;
+}
+
+.history__wrapper {
+  margin: 0 auto;
+}
+
+.collage {
+  margin-top: 8.75rem !important;
+}
+
+.collage__img {
+  width: 33.33% !important;
+}
+
+.collage__text {
+  margin-left: 4.44rem;
+}
+
+.contacts__socials button,
+.footer__socials button {
+  width: 1.25rem;
+  height: 1rem;
+  border: 0;
+}
+
+.contacts__fb {
+  background: center/contain url(./images/mini-svg/fb.svg) no-repeat;
+}
+
+.contacts__ig {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background: center/contain url(./images/mini-svg/ig.svg) no-repeat;
+}
+
+.contacts__tw {
+  background: center/contain url(./images/mini-svg/tw.svg) no-repeat;
+}
+
+.footer {
+  padding-top: 12.5rem;
+}
+.footer a {
+  text-decoration: none;
+  color: #122947;
+}
+
+.footer__menu-item {
+  list-style: none;
+}
+
+.footer__logo {
+  margin-right: 4.2rem;
+}
+
+.mini-svg:hover {
+  box-shadow: 0 1px 2px 0 rgba(106, 222, 71, 0.45), 0 1px 3px 1px rgba(50, 119, 10, 0.3);
+}/*# sourceMappingURL=index.css.map */
